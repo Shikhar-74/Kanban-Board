@@ -67,7 +67,7 @@ function Done({ tasks, moveTask, editTask, deleteTask }) {
                       </div>
                     )}
 
-                    <div className="flex justify-end gap-2 text-gray-400 text-sm">
+                    {/* <div className="flex justify-end gap-2 text-gray-400 text-sm">
                       <button
                         className="hover:text-gray-700"
                         onClick={() => moveTask(task.id, "ongoing")}
@@ -89,7 +89,7 @@ function Done({ tasks, moveTask, editTask, deleteTask }) {
                       >
                         🗑️
                       </button>
-                    </div>
+                    </div> */}
                   </div>
                 )}
               </Draggable>

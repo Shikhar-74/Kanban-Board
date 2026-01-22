@@ -80,7 +80,7 @@ function ToDo({ tasks, moveTask, editTask, deleteTask }) {
                       >
                         ➡
                       </button>
-                      <button
+                      {/* <button
                         className="hover:text-blue-600"
                         onClick={() => {
                           setEditId(task.id);
@@ -88,7 +88,7 @@ function ToDo({ tasks, moveTask, editTask, deleteTask }) {
                         }}
                       >
                         ✏️
-                      </button>
+                      </button> */}
                       <button
                         className="hover:text-red-600"
                         onClick={() => deleteTask(task.id)}
