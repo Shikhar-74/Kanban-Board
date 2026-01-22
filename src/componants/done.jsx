@@ -27,6 +27,7 @@ function Done({ tasks, moveTask, editTask, deleteTask }) {
                 key={task.id}
                 draggableId={task.id.toString()}
                 index={index}
+                isDragDisabled={true}
               >
                 {(p) => (
                   <div
@@ -97,7 +98,12 @@ function Done({ tasks, moveTask, editTask, deleteTask }) {
 
           {p.placeholder}
         </div>
+
+
+
       )}
+
+      
     </Droppable>
   );
 }
